@@ -118,12 +118,12 @@ public class MainActivity extends BaseActivity<EmptyView, EmptyPresenter> implem
 
     @Override
     protected void initView() {
-        String w="wwwwwwwwwwwwwwwwwwwwwwwwwwwww";
-        String x="wwwwwwwwwwwwwwwwwwwwwwwwwwwww";
-        String xx="wwwwwwwwwwwwwwwwwwwwwwwwwwwww";
-String a="aaaaaa";
-        String b="bbbbbb";
-        String c="cccccc";
+        String w = "wwwwwwwwwwwwwwwwwwwwwwwwwwwww";
+        String x = "wwwwwwwwwwwwwwwwwwwwwwwwwwwww";
+        String xx = "wwwwwwwwwwwwwwwwwwwwwwwwwwwww";
+        String a = "aaaaaa";
+        String b = "bbbbbb";
+        String c = "cccccc";
         StatusBarUtil.setLightMode(this);
         View headerView = mNv.getHeaderView(0);
         ivHeaderLeft = (ImageView) headerView.findViewById(R.id.iv_header_left);
